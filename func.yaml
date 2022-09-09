@@ -1,15 +1,13 @@
 specVersion: 0.25.0
 name: quarkus-fn
-namespace: ""
+namespace: test-ns
 runtime: quarkus
-registry: ""
-image: ""
 imageDigest: ""
 build: git
 git:
   url: https://github.com/jrangelramos/quarkus-fn.git
 buildpacks: []
-builder: ""
+builder: pack
 volumes: []
 buildEnvs:
 - name: BP_NATIVE_IMAGE
